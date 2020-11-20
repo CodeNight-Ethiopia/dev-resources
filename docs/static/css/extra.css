@@ -1,0 +1,17 @@
+@keyframes glowing {
+0% { background-color: #98d4ff; box-shadow: 0 0 5px #fff; }
+10% { background-color: #92cdf7; box-shadow: 0 0 20px #fff; }
+20% { background-color: #8cc7f2; box-shadow: 0 0 20px #fff; }
+30% { background-color: #85c0eb; box-shadow: 0 0 20px #fff; }
+40% { background-color: #7fb9e4; box-shadow: 0 0 20px #fff; }
+50% { background-color: #78b1dc; box-shadow: 0 0 20px #fff; }
+60% { background-color: #7fb9e4; box-shadow: 0 0 20px #fff; }
+70% { background-color: #85c0eb; box-shadow: 0 0 20px #fff; }
+80% { background-color: #8cc7f2; box-shadow: 0 0 20px #fff; }
+90% { background-color: #92cdf7; box-shadow: 0 0 20px #fff; }
+100% { background-color: #98d4ff; box-shadow: 0 0 5px #fff; }
+}
+
+.new_update {
+animation: glowing 1500ms infinite;
+}

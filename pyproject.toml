@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "dev_resources"
+version = "0.1.0"
+description = "Collection of resources for developers, from templates,packages,articles and etc..."
+authors = ["CodeNight Ethiopia <gdgaddis.et@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mkdocs-material = "^6.1.4"
+mkdocs-git-revision-date-plugin = "^0.3.1"
+mkdocs-git-revision-date-localized-plugin = "^0.7.3"
+mkdocs-minify-plugin = "^0.3.0"
+mkdocs-git-authors-plugin = "^0.3.2"
+mkdocs-features-notifier-plugin = "^0.0.2"
+mkdocs-macros-plugin = "^0.4.20"
+
+
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,128 @@
+site_name: Dev Resources
+site_url: https://example.com
+site_author: CodeNight-Ethiopia
+site_description: >-
+  Collection of resources for developers, from templates,packages,articles and etc...
+
+repo_name: CodeNight/dev-resources
+repo_url: https://github.com/CodeNight-Ethiopia/dev-resources
+edit_uri: https://github.com/CodeNight-Ethiopia/dev-resources/docs/
+
+copyright: Copyright &copy; 2020 CodeNight Ethiopia
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  icon:
+    repo: fontawesome/brands/github-alt
+  features:
+    - navigation.tabs
+    - navigation.instant # common this if you don't want SPA mode
+
+
+
+plugins:
+  - search
+  - macros
+  - mkdocs-features-notifier-plugin
+  - git-authors:
+      show_contribution: true
+      show_line_count: true
+      count_empty_lines: true
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: timeago
+      fallback_to_build_date: true
+
+# google_analytics:
+#   - UA-XXXXXXXX-X
+#   - auto
+
+nav:
+  - Home: 'index.md'
+  - Updates: 'features.md'
+  - Architecture:
+      - Getting start: "architecture/index.md"
+  - C:
+      - Getting start: "c/index.md"
+  - C++:
+      - Getting start: "c-plus/index.md"
+  - C#:
+      - Getting start: "c-sharp/index.md"
+  - Dart:
+      - Getting start: "dart/index.md"
+  - Go:
+      - Getting start: "go/index.md"
+  - Java:
+      - Getting start: "java/index.md"
+  - Javascript:
+      - Getting start: "javascript/index.md"
+  - Kotlin:
+      - Getting start: "kotlin/index.md"
+  - MATLAB:
+      - Getting start: "matlab/index.md"
+  - Objective-C:
+      - Getting start: "objective-c/index.md"
+  - Php:
+      - Getting start: "php/index.md"
+  - Python:
+      - Getting start: "python/index.md"
+  - R:
+      - Getting start: "r/index.md"
+  - Ruby:
+      - Getting start: "ruby/index.md"
+  - Rust:
+      - Getting start: "rust/index.md"
+  - Other:
+      - Getting start: "other/index.md"
+  - Snippets:
+      - Welcome: "snippets/index.md"
+
+
+markdown_extensions:
+  - meta
+  - abbr
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.tabbed
+  - footnotes
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.smartsymbols
+  - attr_list
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
+
+extra_css:
+    - 'static/css/termynal.css'
+    - 'static/css/custom.css'
+    - 'static/css/extra.css'
+
+extra_javascript:
+    - 'static/js/mermaid.min.js'
+    - 'static/js/termynal.js'
+    - 'static/js/custom.js'
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CodeNight-Ethiopia
+      name: CodeNight Ethiopia on Github
+    - icon: octicons/mail-24
+      link: mailto:gdgaddis.et@gmail.com
+      name: CodeNight Ethiopia Email Address
