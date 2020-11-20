@@ -6,7 +6,7 @@ site_description: >-
 
 repo_name: CodeNight/dev-resources
 repo_url: https://github.com/CodeNight-Ethiopia/dev-resources
-edit_uri: https://github.com/CodeNight-Ethiopia/dev-resources/docs/
+edit_uri: https://github.com/CodeNight-Ethiopia/dev-resources/tree/master/docs
 
 copyright: Copyright &copy; 2020 CodeNight Ethiopia
 
