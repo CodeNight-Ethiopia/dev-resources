@@ -58,6 +58,48 @@ nav:
       - Getting start: "java/index.md"
   - Javascript:
       - Getting start: "javascript/index.md"
+      - Articles: "javascript/articles.md"
+      - Packages: "javascript/packages.md"
+      - Templates: "javascript/templates.md"
+      - Test: "javascript/test.md"
+      - Backend:
+        - Express:
+          - Getting start: "javascript/backend/express/index.md"
+          - Articles: "javascript/backend/express/articles.md"
+          - Packages: "javascript/backend/express/packages.md"
+          - Templates: "javascript/backend/express/templates.md"
+          - Test: "javascript/backend/express/test.md"
+        - Hapi:
+          - Getting start: "javascript/backend/hapi/index.md"
+          - Articles: "javascript/backend/hapi/articles.md"
+          - Packages: "javascript/backend/hapi/packages.md"
+          - Templates: "javascript/backend/hapi/templates.md"
+          - Test: "javascript/backend/hapi/test.md"
+        - Nest:
+          - Getting start: "javascript/backend/nest/index.md"
+          - Articles: "javascript/backend/nest/articles.md"
+          - Packages: "javascript/backend/nest/packages.md"
+          - Templates: "javascript/backend/nest/templates.md"
+          - Test: "javascript/backend/nest/test.md"
+      - Frontend:
+        - React:
+          - Getting start: "javascript/frontend/react/index.md"
+          - Articles: "javascript/frontend/react/articles.md"
+          - Packages: "javascript/frontend/react/packages.md"
+          - Templates: "javascript/frontend/react/templates.md"
+          - Test: "javascript/frontend/react/test.md"
+        - Svelte:
+          - Getting start: "javascript/frontend/svelte/index.md"
+          - Articles: "javascript/frontend/svelte/articles.md"
+          - Packages: "javascript/frontend/svelte/packages.md"
+          - Templates: "javascript/frontend/svelte/templates.md"
+          - Test: "javascript/frontend/svelte/test.md"
+        - Vue:
+          - Getting start: "javascript/frontend/vue/index.md"
+          - Articles: "javascript/frontend/vue/articles.md"
+          - Packages: "javascript/frontend/vue/packages.md"
+          - Templates: "javascript/frontend/vue/templates.md"
+          - Test: "javascript/frontend/vue/test.md"
   - Kotlin:
       - Getting start: "kotlin/index.md"
   - MATLAB:
@@ -68,6 +110,29 @@ nav:
       - Getting start: "php/index.md"
   - Python:
       - Getting start: "python/index.md"
+      - Articles: "python/articles.md"
+      - Packages: "python/packages.md"
+      - Templates: "python/templates.md"
+      - Test: "python/test.md"
+      - Web:
+        - Django:
+          - Getting start: "python/web/django/index.md"
+          - Articles: "python/web/django/articles.md"
+          - Packages: "python/web/django/packages.md"
+          - Templates: "python/web/django/templates.md"
+          - Test: "python/web/django/test.md"
+        - FastAPI:
+          - Getting start: "python/web/fastapi/index.md"
+          - Articles: "python/web/fastapi/articles.md"
+          - Packages: "python/web/fastapi/packages.md"
+          - Templates: "python/web/fastapi/templates.md"
+          - Test: "python/web/fastapi/test.md"
+        - Flask:
+          - Getting start: "python/web/flask/index.md"
+          - Articles: "python/web/flask/articles.md"
+          - Packages: "python/web/flask/packages.md"
+          - Templates: "python/web/flask/templates.md"
+          - Test: "python/web/flask/test.md"
   - R:
       - Getting start: "r/index.md"
   - Ruby:
