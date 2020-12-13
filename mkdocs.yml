@@ -16,7 +16,7 @@ theme:
   icon:
     repo: fontawesome/brands/github-alt
   features:
-    - navigation.tabs
+#    - navigation.tabs
     - navigation.instant # common this if you don't want SPA mode
 
 
@@ -24,7 +24,6 @@ theme:
 plugins:
   - search
   - macros
-  - mkdocs-features-notifier-plugin
   - git-authors:
       show_contribution: true
       show_line_count: true
@@ -41,19 +40,15 @@ plugins:
 
 nav:
   - Home: 'index.md'
-  - Updates: 'features.md'
-  - Architecture:
-      - Getting start: "architecture/index.md"
-  - C:
-      - Getting start: "c/index.md"
-  - C++:
-      - Getting start: "c-plus/index.md"
-  - C#:
-      - Getting start: "c-sharp/index.md"
-  - Dart:
-      - Getting start: "dart/index.md"
-  - Go:
-      - Getting start: "go/index.md"
+  - AngularJS:
+      - Getting start: "angular/index.md"
+      - Templates: "angular/templates.md"
+  - Django:
+      - Getting start: "django/index.md"
+      - Templates: "django/templates.md"
+  - Flutter:
+      - Getting start: "flutter/index.md"
+      - Templates: "flutter/templates.md"
   - Java:
       - Getting start: "java/index.md"
   - Javascript:
@@ -102,11 +97,9 @@ nav:
           - Test: "javascript/frontend/vue/test.md"
   - Kotlin:
       - Getting start: "kotlin/index.md"
-  - MATLAB:
-      - Getting start: "matlab/index.md"
-  - Objective-C:
-      - Getting start: "objective-c/index.md"
-  - Php:
+  - Laravel:
+      - Getting start: "laravel/index.md"
+  - PHP:
       - Getting start: "php/index.md"
   - Python:
       - Getting start: "python/index.md"
@@ -133,16 +126,12 @@ nav:
           - Packages: "python/web/flask/packages.md"
           - Templates: "python/web/flask/templates.md"
           - Test: "python/web/flask/test.md"
-  - R:
-      - Getting start: "r/index.md"
-  - Ruby:
-      - Getting start: "ruby/index.md"
-  - Rust:
-      - Getting start: "rust/index.md"
-  - Other:
-      - Getting start: "other/index.md"
-  - Snippets:
-      - Welcome: "snippets/index.md"
+  - React:
+      - Getting start: "react/index.md"
+  - React Native:
+      - Getting start: "react_native/index.md"
+  - Vue:
+      - Getting start: "vue/index.md"
 
 
 markdown_extensions:
